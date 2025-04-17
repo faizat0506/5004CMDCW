@@ -35,12 +35,3 @@ plt.savefig("scatterplot.png")
 plt.show()
 
 
-'Level', 'Date', 'State FIPS', 'State Postal Code', 'County FIPS',
-       'County Name', 'Population Staying at Home',
-       'Population Not Staying at Home', 'Number of Trips',
-       'Number of Trips <1', 'Number of Trips 1-3', 'Number of Trips 3-5',
-       'Number of Trips 5-10', 'Number of Trips 10-25',
-       'Number of Trips 25-50', 'Number of Trips 50-100',
-       'Number of Trips 100-250', 'Number of Trips 250-500',
-       'Number of Trips >=500', 'Row ID', 'Week', 'Month'],
-      dtype='object'
