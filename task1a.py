@@ -45,12 +45,3 @@ plt.grid(True)
 
 plt.savefig("weekly_home_avg.png")
 
-
-plt.figure(figsize=(12, 6))
-total_trips.plot(kind='bar', color='darkred')
-plt.title('Trip Distribution by Distance')
-plt.xlabel('Distance Range (miles)')
-plt.ylabel('Number of Trips')
-plt.xticks(ticks=range(len(distance_column)), labels=distance_column, rotation=45)
-plt.tight_layout()
-plt.savefig("trip_distance_distribution.png")
